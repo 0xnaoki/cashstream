@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* 全体のスタイル */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* フォームのスタイル */
+  form {
+    background: #fff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  form b{
+    font-size: 150%;
+  }
+  
+  form input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* タイマーディスプレイのスタイル */
+  .timer-display {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .timer-display  {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .timer-display button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .timer-display button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* 現在のキャッシュ表示のスタイル */
+  .current-cash {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+.image-container {
+    width: 200px;
+    height: auto;
+    padding-right: 100px;
+    border-radius: 8px;
+  }
